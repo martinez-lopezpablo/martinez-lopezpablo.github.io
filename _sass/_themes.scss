@@ -19,7 +19,7 @@
   --global-distill-app-color: #{$grey-color};
   --global-divider-color: rgba(157, 152, 152, 0.281);
   --global-card-bg-color: #{$white-color};
-  --global-highlight-color: #{$cyan-color-dark};
+  --global-highlight-color: #{$cyan-color};
   --global-back-to-top-bg-color: rgba(
     #{color.channel($black-color, "red", $space: rgb)},
     #{color.channel($black-color, "green", $space: rgb)},
