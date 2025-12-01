@@ -30,13 +30,13 @@ email: martinezlopez.pbl@gmail.com # your email address
 # mastodon_username: # your mastodon instance+username in the format instance.tld/@username
 # medium_username: # your Medium username
 # orcid_id: # your ORCID ID
-osf_id: https://osf.io/xtwqk/ # your OSF ID
+osf_id: xtwqk # your OSF ID
 # pinterest_id: # your pinterest id
 # publons_id: # your ID on Publons
 # quora_username: # your Quora username
 # research_gate_profile: # your profile on ResearchGate
 rss_icon: true # comment this line to hide the RSS icon
-scholar_userid: https://scholar.google.es/citations?user=2R6LzfwAAAAJ&hl=es&oi=ao # your Google Scholar ID
+scholar_userid: 2R6LzfwAAAAJ # your Google Scholar ID
 # scopus_id: # your profile on Scopus
 # semanticscholar_id: # your Semantic Scholar ID
 # spotify_id: # your spotify id
