@@ -46,8 +46,6 @@
 
   <!-- Entry bib key -->
   <div id="{{ entry.key }}" class="{% if site.enable_publication_thumbnails %}col-sm-8{% else %}col-sm-10{% endif %}">
-    <!-- Title -->
-    <div class="title">{{ entry.title }}</div>
     <!-- Author -->
     <div class="author">
       {% assign author_array_size = entry.author_array | size %}
@@ -143,24 +141,18 @@
         >
         </i>
       {% endif %}
-    </div>
-  
+    {% if entry.year %}
+      {% capture entryyear %}{{ " " }}{{ entry.year }}{% endcapture %}
+    {% endif %}
 
-<!-- Year -->
-<div class="year">
-({{ entry.year }}).
-</div>
     <!-- Title -->
-    <div class="title">{{ entry.title }}</div>
+    class="title">{{ entry.title }}
 
     <!-- Journal/Book title and date -->
     {% assign proceedings = 'inproceedings,incollection' | split: ',' %}
     {% assign thesis = 'thesis,mastersthesis,phdthesis' | split: ',' %}
     {% if entry.type == 'article' %}
       {% capture entrytype %}<em>{{ entry.journal }}</em>{% endcapture %}
-      {% capture entrytype %}, <em>{{ entry.volume }}</em>{% endcapture %}
-      {% capture entrytype %}({{ entry.number }}){% endcapture %}
-      {% capture entrytype %}, {{ entry.pages }}{% endcapture %}
       {% capture entrytype %}https://doi.org/{{ entry.doi }}{% endcapture %}
     {% elsif proceedings contains entry.type %}
       {% capture entrytype %}<em>In {{ entry.booktitle }}</em>{% endcapture %}
@@ -169,11 +161,20 @@
     {% else %}
       {% capture entrytype %}{% endcapture %}
     {% endif %}
+     {% if entry.volume %}
+     {% capture entryvolume %} <em>{{ entry.volume }}</em>{% endcapture %}
+    {% endif %}
+    {% if entry.number %}
+     {% capture entrynumber %} ({{ entry.number }}) {% endcapture %}
+    {% endif %}
+    {% if entry.pages %}
+     {% capture entrypages %} ({{ entry.pages }}) {% endcapture %}
+    {% endif %}
+    {% if entry.doy %}
+     {% capture entrydoy %} https://doi.org/{{ entry.doi }}{% endcapture %}
+    {% endif %}
     {% if entry.month %}
       {% capture entrymonth %}{{ " " }}{{ entry.month | capitalize }}{% endcapture %}
-    {% endif %}
-    {% if entry.year %}
-      {% capture entryyear %}{{ " " }}{{ entry.year }}{% endcapture %}
     {% endif %}
     {% if entry.location %}
       {% capture entrytype %}{{ entrytype }}{{ ", " }}{{ entry.location }}{% endcapture %}
