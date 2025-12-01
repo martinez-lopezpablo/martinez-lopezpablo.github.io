@@ -113,7 +113,7 @@ ninja.data = [{
         title: 'Open Science Framework',
         section: 'Socials',
         handler: () => {
-          window.open("https://osf.io/https://osf.io/xtwqk//", "_blank");
+          window.open("https://osf.io/xtwqk/", "_blank");
         },
       },{
         id: 'social-rss',
@@ -127,7 +127,7 @@ ninja.data = [{
         title: 'Google Scholar',
         section: 'Socials',
         handler: () => {
-          window.open("https://scholar.google.com/citations?user=https://scholar.google.es/citations?user=2R6LzfwAAAAJ&hl=es&oi=ao", "_blank");
+          window.open("https://scholar.google.com/citations?user=2R6LzfwAAAAJ", "_blank");
         },
       },{
       id: 'light-theme',
