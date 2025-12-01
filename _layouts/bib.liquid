@@ -144,12 +144,24 @@
         </i>
       {% endif %}
     </div>
+  
+
+<!-- Year -->
+<div class="year">
+({{ entry.year }}).
+</div>
+    <!-- Title -->
+    <div class="title">{{ entry.title }}</div>
 
     <!-- Journal/Book title and date -->
     {% assign proceedings = 'inproceedings,incollection' | split: ',' %}
     {% assign thesis = 'thesis,mastersthesis,phdthesis' | split: ',' %}
     {% if entry.type == 'article' %}
       {% capture entrytype %}<em>{{ entry.journal }}</em>{% endcapture %}
+      {% if entry.volume %}, <em>{{ entry.volume }}</em>{% endcapture %}
+      {% if entry.number %}({{ entry.number }}){% endcapture %}
+      {% if entry.pages %}, {{ entry.pages }}{% endcapture %}
+      {% if entry.doi %}https://doi.org/{{ entry.doi }}{% endcapture %}
     {% elsif proceedings contains entry.type %}
       {% capture entrytype %}<em>In {{ entry.booktitle }}</em>{% endcapture %}
     {% elsif thesis contains entry.type %}
