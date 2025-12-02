@@ -1,7 +1,7 @@
 ---
 layout: page
 title: SEPC2023
-description: Oral comm. at a symposium
+description: Poster
 img: /assets/img/sepc2025.jpg
 importance: 4
 category: conferences
