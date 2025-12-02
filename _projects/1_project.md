@@ -1,9 +1,9 @@
 ---
 layout: page
-title: SEPC2025
+title: SEPC2023
 description: Oral comm. at a symposium
-img: assets/img/12.jpg
-importance: 1
+img: /assets/img/sepc2025.jpg
+importance: 4
 category: conferences
 related_publications: true
 ---
