@@ -5,7 +5,7 @@ description: Poster
 img: /assets/img/sepc2023.jpg
 importance: 4
 category: conferences
-related_publications: true
+related_publications: false
 ---
 POSTER. <strong>How individual differences influences attentional sign-tracking?</strong>
 <div class="online-version">
