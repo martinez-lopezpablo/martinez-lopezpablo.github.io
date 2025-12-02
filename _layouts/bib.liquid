@@ -1,6 +1,6 @@
 ---
 ---
-{% assign style = "apa" %}
+{% assign style == "apa" %}
 <div class="row">
   {% if site.enable_publication_thumbnails %}
     <div class="col col-sm-2 abbr">
@@ -121,7 +121,7 @@
     </div>
   {% endif %}
 
-    {%- if style = "new" %}
+    {%- if style == "new" %}
     <!-- Title -->
     <div class="title">{{ entry.title }}</div>
     <!-- Author -->
