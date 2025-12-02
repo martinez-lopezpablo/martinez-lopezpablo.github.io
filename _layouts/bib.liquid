@@ -1,6 +1,6 @@
 ---
 ---
-style = "old"
+{% assign style = "apa" %}
 <div class="row">
   {% if site.enable_publication_thumbnails %}
     <div class="col col-sm-2 abbr">
@@ -47,7 +47,7 @@ style = "old"
 
 <!-- Entry bib key -->
   <div id="{{ entry.key }}" class="{% if site.enable_publication_thumbnails %}col-sm-8{% else %}col-sm-10{% endif %}">
-    {%- if style != "old" %}
+    {%- if style = "apa" %}
     <div class="apa-citation">
       {%- assign authors = "" -%}
         {%- assign max_authors_display = 6 -%}
@@ -121,7 +121,7 @@ style = "old"
     </div>
   {% endif %}
 
-    {%- if style != "new" %}
+    {%- if style = "new" %}
     <!-- Title -->
     <div class="title">{{ entry.title }}</div>
     <!-- Author -->
