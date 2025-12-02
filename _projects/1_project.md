@@ -7,9 +7,9 @@ importance: 4
 category: conferences
 related_publications: false
 ---
-POSTER. <strong>How individual differences influences attentional sign-tracking?</strong>
+POSTER. <strong>How individual differences influence attentional sign-tracking?</strong>
 <div class="online-version">
-    <a href="google.com" target="_blank">
+    <a href="https://osf.io/wsph3/files/osfstorage/692ecd4751093effa677044b" target="_blank">
         Online version
     </a>
 </div>
