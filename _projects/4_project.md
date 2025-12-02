@@ -6,75 +6,12 @@ img: /assets/img/sepc2025.jpg
 importance: 1
 category: conferences
 ---
-
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
-
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
-
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
-
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
+ORAL COMM. (symp.). <strong>Lingering habits: testing the temporal stability of habits</strong>
+<div class="online-version">
+    <a href="https://osf.io/wsph3/files/osfstorage/692ed3c00ab5e833fcb54d34" target="_blank">
+        Online version
+    </a>
 </div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
+<div class="caption" style="text-align: left;">
+    Habits are learned when we repeat a rewarded action numerous times and are activated even when they contradict current goals. Individual differences in the balance between goal-directed and habit processes have been linked to transdiagnostic impulsivity among other personality traits. Essentially, individual differences studies suggest a trait of habit formation and expression tendency that differs across individuals. The amount of training required to form an inflexible stimulus-response habit may vary across individuals, as well as the tendency to express it once it is learned. However, the temporal stability of individual differences in habit formation and expression has never been directly examined, leaving open the question of whether a stable ‘habit trait’ exists in healthy populations. In our pre registered study, we addressed this gap by testing 79 participants in a forced-response task using a test–retest design. Participants underwent three consecutive days of training (1,000 trials per day), followed by a test on the fourth day and a retest on the fifth. The assessments were separated by a day to minimize the extinction of the acquired habit, enabling us to test whether the stability of habit expression is minimally stable. At the individual level, habitual responding during the test significantly correlated with habitual responding during the retest, providing evidence for the temporal stability of individual differences in habit expression. At the group level, we detected the expression of habits in both tests, although we observed a significant reduction in habit responding between test and retest. We discuss potential interpretations of this result pattern and its implications for understanding the stability of habits. 
 </div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
-
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
-
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
-
-{% endraw %}
