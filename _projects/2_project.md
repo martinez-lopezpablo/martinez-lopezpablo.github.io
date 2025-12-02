@@ -4,7 +4,7 @@ title: SEPEX2024
 description: 1. Oral comm. at a symposium. 2. Poster
 img: assets/img/sepex2024.jpg
 importance: 3
-category: work
+category: conferences
 giscus_comments: true
 ---
 
