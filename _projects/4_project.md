@@ -4,7 +4,7 @@ title: SEPC2025
 description: Oral comm. at a symposium
 img: /assets/img/sepc2025.jpg
 importance: 1
-category: fun
+category: conferences
 ---
 
 Every project has a beautiful feature showcase page.
