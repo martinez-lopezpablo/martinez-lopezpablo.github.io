@@ -1,10 +1,10 @@
 ---
 layout: page
-title: project 1
-description: with background image
+title: SEPC2025
+description: Oral comm. at a symposium
 img: assets/img/12.jpg
 importance: 1
-category: work
+category: conferences
 related_publications: true
 ---
 
@@ -18,7 +18,7 @@ To give your project a background in the portfolio page, just add the img tag to
     layout: page
     title: project
     description: a project with a background image
-    img: /assets/img/12.jpg
+    img: /assets/img/sepc2025.jpg
     ---
 
 <div class="row">
