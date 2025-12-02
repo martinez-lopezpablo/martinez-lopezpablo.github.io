@@ -810,9 +810,15 @@ footer.sticky-bottom {
           }
         }
         a.award.btn {
+          border-color: var(--global-text-color);
+        }
+      }
+      
+      a.pdf.btn {
           border-color: var(--global-highlight-color);
         }
       }
+
 
       .badges {
         padding-bottom: 0.5rem;
