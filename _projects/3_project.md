@@ -1,8 +1,8 @@
 ---
 layout: page
-title: project 3 with very long name
-description: a project that redirects to another website
-img: assets/img/7.jpg
+title: EAM2025
+description: Oral comm.
+img: assets/img/EAM2025.jpg
 redirect: https://unsplash.com
 importance: 3
 category: work
