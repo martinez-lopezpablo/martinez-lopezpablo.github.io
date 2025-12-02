@@ -5,77 +5,25 @@ description: 1. Oral comm. at a symposium. 2. Poster
 img: assets/img/sepex2024.jpg
 importance: 3
 category: conferences
-giscus_comments: true
+giscus_comments: false
 ---
-
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
-
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
-
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
-
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
+ORAL COMM. (symp.). <strong>Evaluation of the Permutation-Based Split-Half Reliability
+in Experimental Paradigms for Habit Induction in Humans</strong>
+<div class="online-version">
+    <a href="https://osf.io/wsph3/files/osfstorage/692ece1ac27ba447c87704ab" target="_blank">
+        Online version
+    </a>
 </div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
+<div class="caption" style="text-align: left;">
+   Animal models’ literature has postulated that repeating an action with enough frequency transforms it from goal-directed to habitual. In contrast to goal-directed, habitual behaviour is commonly accepted as unsensible to outcome value changes, inflexible, and guided by the specific context where it was formed. However, recent experimental studies in humans could not reproduce key results with animals. This fact has meant a crucial translational problem, requiring a valid procedure for inducing habits in humans. Since a measure cannot be valid if it is not reliable, the current study proposes an evaluation of the reliability of these experimental tasks in humans. To this aim, we re-analyse public data from eight different studies and seven experimental paradigms and calculate the internal consistency of their measures through split-half correlation via permutations, which has been proposed as an approximation to Cronbach’s alpha. Subsequently, we meta-analyze the internal consistency of the measures in the experimental paradigms for habit induction and offer some recommendations about which experimental conditions would favour better reliability in new tasks. Specifically, some of these suggestions are relative to the length of the test phases (more or fewer trials), the test approximation or the amount of overtraining. The conclusions from this work will promote the development of more reliable tasks and well-powered replications of the previous studies.
 </div>
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
-
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
+POSTER. <strong>Using a Forced Response Task to Measure Habit Formation in Humans</strong>
+<div class="online-version">
+    <a href="https://osf.io/wsph3/files/osfstorage/692ecdfe3649799c83957315" target="_blank">
+        Online version
+    </a>
 </div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
+<div class="caption" style="text-align: left;">
+    Extensive research in non-human animals has shown that two distinct systems control instrumental behavior. In novel situations, the goal-directed system guides behavior based on knowledge of how to achieve an outcome. After extensive training, goal-directed behavior transitions into habitual behavior, which is controlled by stimulus-response (S-R) links and independent of outcome value. Intriguingly, the evidence of increased habitual control after overtraining is significantly reduced in humans. Detecting habits in the human laboratory may depend on factors such as time pressure for responding. Hardwick et al. (2019) recently showed in their Forced Response task that, after extensive practice of S-R associations, when participants have little time to prepare a response (i.e., approximately 300-600 ms), the probability of expressing habitual responses significantly increases. In our pre-registered study, we conducted a direct replication of this experiment and found the same pattern of results. Moreover, we extended their analyses and also examined reaction times. Consistent with another study (Luque et al. 2020), reaction times for correct responses to remapped S-R associations were slower after overtraining, indicating that it was hard to change a habit once it had formed. These results support the Forced Response task as a valid method to induce habits in humans, as both response selection and reaction times can be sensitive to overtraining. Other considerations about this experimental paradigm are discussed.
 </div>
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
-
-{% endraw %}
