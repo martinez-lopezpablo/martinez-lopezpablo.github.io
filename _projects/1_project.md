@@ -2,7 +2,7 @@
 layout: page
 title: SEPC2023
 description: Poster
-img: /assets/img/sepc2025.jpg
+img: /assets/img/sepc2023.jpg
 importance: 4
 category: conferences
 related_publications: true
