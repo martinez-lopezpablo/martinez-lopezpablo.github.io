@@ -17,10 +17,8 @@ in Experimental Paradigms for Habit Induction in Humans</strong>
 <div class="caption" style="text-align: left;">
    Animal models’ literature has postulated that repeating an action with enough frequency transforms it from goal-directed to habitual. In contrast to goal-directed, habitual behaviour is commonly accepted as unsensible to outcome value changes, inflexible, and guided by the specific context where it was formed. However, recent experimental studies in humans could not reproduce key results with animals. This fact has meant a crucial translational problem, requiring a valid procedure for inducing habits in humans. Since a measure cannot be valid if it is not reliable, the current study proposes an evaluation of the reliability of these experimental tasks in humans. To this aim, we re-analyse public data from eight different studies and seven experimental paradigms and calculate the internal consistency of their measures through split-half correlation via permutations, which has been proposed as an approximation to Cronbach’s alpha. Subsequently, we meta-analyze the internal consistency of the measures in the experimental paradigms for habit induction and offer some recommendations about which experimental conditions would favour better reliability in new tasks. Specifically, some of these suggestions are relative to the length of the test phases (more or fewer trials), the test approximation or the amount of overtraining. The conclusions from this work will promote the development of more reliable tasks and well-powered replications of the previous studies.
 </div>
-</div>
-</div>
+<div
 POSTER. <strong>Using a Forced Response Task to Measure Habit Formation in Humans</strong>
-</div>
 </div>
 <div class="online-version">
     <a href="https://osf.io/wsph3/files/osfstorage/692ecdfe3649799c83957315" target="_blank">
