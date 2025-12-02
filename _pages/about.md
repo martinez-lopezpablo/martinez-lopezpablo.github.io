@@ -24,4 +24,4 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Hello world! I’m Pablo, a PhD student in Experimental Psychology at the University of Málaga. I study how humans learn habits –inflexible behaviors– and the conditions in which we express them. In my research, I integrate behavioral data and applied psychometrics while following an open and transparent science path. I'm particularly interested in associative learning, decision-making, and reinforcement learning.
+Hello world! I’m Pablo, a PhD student in Experimental Psychology at the University of Málaga. I study how humans learn habits—inflexible behaviors—and the conditions that shape their expression. In my research, I integrate behavioral data and applied psychometrics while following an open and transparent science path. I'm particularly interested in associative learning, decision-making, and reinforcement learning.
