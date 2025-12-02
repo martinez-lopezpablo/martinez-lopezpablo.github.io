@@ -1,7 +1,7 @@
 ---
 layout: page
 title: SEPEX2024
-description: 1. Oral comm. at a symposium. 2. Poster
+description: Oral comm. at a symposium and Poster
 img: assets/img/sepex2024.jpg
 importance: 3
 category: conferences
