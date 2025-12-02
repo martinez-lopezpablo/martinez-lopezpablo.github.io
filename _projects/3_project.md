@@ -5,7 +5,7 @@ description: Oral comm.
 img: assets/img/EAM2025.jpg
 redirect: https://unsplash.com
 importance: 2
-category: work
+category: conferences
 ---
 
 Every project has a beautiful feature showcase page.
