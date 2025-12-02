@@ -35,7 +35,7 @@ ninja.data = [{
               window.location.href = "/projects/1_project/";
             },},{id: "projects-sepex2024",
           title: 'SEPEX2024',
-          description: "1. Oral comm. at a symposium. 2. Poster",
+          description: "Oral comm. at a symposium and Poster",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_project/";
             },},{id: "projects-eam2025",
