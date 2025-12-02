@@ -5,7 +5,7 @@ permalink: /projects/
 description: Collection of my presentations and posters at conferences.
 nav: true
 nav_order: 3
-display_categories:
+display_categories: [conferences]
 horizontal: false
 ---
 
