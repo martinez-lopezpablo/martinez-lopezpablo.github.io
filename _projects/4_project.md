@@ -1,9 +1,9 @@
 ---
 layout: page
-title: project 4
-description: another without an image
-img:
-importance: 3
+title: SEPC2025
+description: Oral comm. at a symposium
+img: /assets/img/sepc2025.jpg
+importance: 1
 category: fun
 ---
 
