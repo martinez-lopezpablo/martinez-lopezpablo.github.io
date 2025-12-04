@@ -8,7 +8,7 @@ category: conferences
 ---
 ORAL COMM. (symp.). <strong>Lingering habits: testing the temporal stability of habits</strong>
 <div class="online-version">
-    <a href="https://osf.io/wsph3/files/osfstorage/692ed3c00ab5e833fcb54d34" target="_blank">
+    <a href="https://osf.io/wsph3/files/osfstorage/692ed5d1c15f150f41957982" target="_blank">
         Online version
     </a>
 </div>
