@@ -88,6 +88,13 @@ ninja.data = [{
           window.open("mailto:%6D%61%72%74%69%6E%65%7A%6C%6F%70%65%7A.%70%62%6C@%67%6D%61%69%6C.%63%6F%6D", "_blank");
         },
       },{
+        id: 'social-github',
+        title: 'GitHub',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://github.com/martinez-lopezpablo", "_blank");
+        },
+      },{
         id: 'social-osf',
         title: 'Open Science Framework',
         section: 'Socials',
