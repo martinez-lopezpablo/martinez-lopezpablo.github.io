@@ -23,6 +23,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/projects/";
           },
+        },{id: "nav-outreach",
+          title: "outreach",
+          description: "Until now, all my outreach activity has been in Spanish. Sorry!",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/outreach/";
+          },
         },{id: "books-the-godfather",
           title: 'The Godfather',
           description: "",
