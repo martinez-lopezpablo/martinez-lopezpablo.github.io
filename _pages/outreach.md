@@ -40,7 +40,7 @@ toc: true
 </div>
 
     <!-- Year -->
-    <div style="font-size: 0.9rem; color: #777;">
+    <div style="font-size: 0.9rem; color: var(--global-text-color-secondary);">
       2026
     </div>
 
@@ -90,7 +90,7 @@ toc: true
     </div>
 
     <!-- Year -->
-    <div style="font-size: 0.9rem; style="color: var(--global-text-color-secondary);">
+    <div style="font-size: 0.9rem; color: var(--global-text-color-secondary);">
       2026
     </div>
 
@@ -128,7 +128,7 @@ toc: true
     </div>
 
     <!-- Year -->
-    <div style="font-size: 0.9rem; style="color: var(--global-text-color-secondary);">
+    <div style="font-size: 0.9rem; color: var(--global-text-color-secondary);">
       2025
     </div>
 
@@ -166,7 +166,7 @@ toc: true
     </div>
 
     <!-- Year -->
-    <div style="font-size: 0.9rem; style="color: var(--global-text-color-secondary);">
+    <div style="font-size: 0.9rem; color: var(--global-text-color-secondary);">
       2024
     </div>
 
