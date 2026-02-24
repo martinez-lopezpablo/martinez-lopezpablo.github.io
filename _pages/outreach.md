@@ -8,21 +8,19 @@ nav_order: 4
 toc: true
 ---
 
-<!-- Separador sutil -->
+<!-- Line -->
 <hr style="border: 0; border-top: 1px solid #e5e5e5; margin: 20px 0;">
 
-<!-- Bloque de actividad -->
+<!-- Activity -->
 <div style="display: flex; align-items: flex-start; gap: 15px; margin-bottom: 25px;">
 
-  <!-- Imagen pequeña -->
+  <!-- Img -->
   <img src="/assets/img/hoy-por-hoy.jpg"
        alt="Imagen actividad"
        style="width: 200px; height: auto; border-radius: 4px; flex-shrink: 0;">
-
-  <!-- Texto -->
   <div>
 
-    <!-- Título con hipervínculo, negro + hover verde -->
+    <!-- Title -->
     <div style="font-weight: 700; font-size: 1.1rem; margin-bottom: 4px;">
       <a href="https://cadenaser.com/andalucia/2026/02/24/investigadores-de-la-uma-descubren-por-que-el-cerebro-repite-conductas-incluso-cuando-no-queremos-ser-malaga/"
          style="color: var(--global-text-color); text-decoration: none;"
@@ -32,44 +30,44 @@ toc: true
       </a>
     </div>
     
-   <!-- Subdescripción -->
+   <!-- Info -->
 <div style="color: var(--global-text-color-secondary); margin-bottom: 6px;">
   Hoy por Hoy Málaga (Cadena Ser) nos entrevista sobre este 
   <a href="https://link.springer.com/article/10.3758/s13428-025-02865-2"
      style="color: var(--global-theme-color); text-decoration: none;">
      artículo
-  </a>.
+  </a>
 </div>
 
-    <!-- Fecha -->
+    <!-- Year -->
     <div style="font-size: 0.9rem; color: #777;">
-      2025
+      2026
     </div>
 
   </div>
 
 </div>
 
-<!-- Separador sutil -->
+<!-- Line -->
 <hr style="border: 0; border-top: 1px solid #e5e5e5; margin: 20px 0;">
 
-<!-- Bloque de actividad -->
+<!-- Activity -->
 <div style="display: flex; align-items: flex-start; gap: 15px; margin-bottom: 25px;">
 
-  <!-- Imagen pequeña -->
+  <!-- Img -->
   <img src="/assets/img/news.jpg"
        alt="Imagen actividad"
        style="width: 200px; height: auto; border-radius: 4px; flex-shrink: 0;">
 
-  <!-- Texto -->
+  <!-- Text -->
   <div>
 
-    <!-- Título sin hipervínculo, siempre en negro -->
+    <!-- Títle (without link)-->
     <div style="font-weight: 700; font-size: 1.1rem; margin-bottom: 4px; color: var(--global-text-color);">
       Mención en prensa sobre resultados
     </div>
 
-    <!-- Subdescripción con hipervínculos en verde -->
+    <!-- Info -->
     <div  style="color: var(--global-text-color-secondary); margin-bottom: 6px;">
       Los periódicos 
       <a href="https://www.europapress.es/esandalucia/malaga/noticia-ciencia-malaguena-explica-prisa-desnuda-habitos-hace-repetir-mismos-errores-20260223101548.html"
@@ -91,7 +89,7 @@ toc: true
       </a>
     </div>
 
-    <!-- Fecha -->
+    <!-- Year -->
     <div style="font-size: 0.9rem; style="color: var(--global-text-color-secondary);">
       2026
     </div>
@@ -100,21 +98,21 @@ toc: true
 
 </div>
 
-<!-- Separador sutil -->
+<!-- Line -->
 <hr style="border: 0; border-top: 1px solid #e5e5e5; margin: 20px 0;">
 
-<!-- Bloque de actividad -->
+<!-- Activity -->
 <div style="display: flex; align-items: flex-start; gap: 15px; margin-bottom: 25px;">
 
-  <!-- Imagen pequeña -->
+  <!-- Img -->
   <img src="/assets/img/noche-europea.jpg"
        alt="Imagen actividad"
        style="width: 200px; height: auto; border-radius: 4px; flex-shrink: 0;">
 
-  <!-- Texto -->
+  <!-- Text -->
   <div>
 
-    <!-- Título con hipervínculo, negro + hover verde -->
+    <!-- Títle -->
     <div style="font-weight: 700; font-size: 1.1rem; margin-bottom: 4px;">
       <a href="https://www.youtube.com/watch?v=AJ7PTPtR8Hg"
          style="color: var(--global-text-color); text-decoration: none;"
@@ -124,12 +122,12 @@ toc: true
       </a>
     </div>
 
-    <!-- Subdescripción -->
+    <!-- Info -->
     <div style="color: var(--global-text-color-secondary); margin-bottom: 6px;">
       La Noche Europea de l@s Investigador@s
     </div>
 
-    <!-- Fecha -->
+    <!-- Year -->
     <div style="font-size: 0.9rem; style="color: var(--global-text-color-secondary);">
       2025
     </div>
@@ -138,21 +136,21 @@ toc: true
 
 </div>
 
-<!-- Separador sutil -->
+<!-- Line -->
 <hr style="border: 0; border-top: 1px solid #e5e5e5; margin: 20px 0;">
 
-<!-- Bloque de actividad -->
+<!-- Activity -->
 <div style="display: flex; align-items: flex-start; gap: 15px; margin-bottom: 25px;">
 
-  <!-- Imagen pequeña -->
+  <!-- Img -->
   <img src="/assets/img/ciencia-cognitiva.jpg"
        alt="Imagen actividad"
        style="width: 200px; height: auto; border-radius: 4px; flex-shrink: 0;">
 
-  <!-- Texto -->
+  <!-- Text -->
   <div>
 
-    <!-- Título con hipervínculo, negro + hover verde -->
+    <!-- Títle -->
     <div style="font-weight: 700; font-size: 1.1rem; margin-bottom: 4px;">
       <a href="https://www.cienciacognitiva.org/?p=2515"
          style="color: var(--global-text-color); text-decoration: none;"
@@ -162,12 +160,12 @@ toc: true
       </a>
     </div>
 
-    <!-- Subdescripción -->
+    <!-- Info -->
     <div style="color: var(--global-text-color-secondary); margin-bottom: 6px;">
       Revista: Ciencia Cognitiva
     </div>
 
-    <!-- Fecha -->
+    <!-- Year -->
     <div style="font-size: 0.9rem; style="color: var(--global-text-color-secondary);">
       2024
     </div>
