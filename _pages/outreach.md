@@ -22,25 +22,22 @@ corrigelo para todo el codigo de manera que solo tenga que copiar y pegar:
   <!-- Texto -->
   <div>
 
-    <!-- Título con hipervínculo, negro + hover verde -->
-    <div style="font-weight: 700; font-size: 1.1rem; margin-bottom: 4px;">
-      <a href="https://cadenaser.com/andalucia/2026/02/24/investigadores-de-la-uma-descubren-por-que-el-cerebro-repite-conductas-incluso-cuando-no-queremos-ser-malaga/"
-         style="color: #000; text-decoration: none;"
-         onmouseover="this.style.color='var(--global-theme-color)'"
-         onmouseout="this.style.color='#000'">
-         Entrevista radiofónica sobre resultados
-      </a>
-    </div>
+   <!-- Título con hipervínculo, compatible con modo oscuro -->
+<div style="font-weight: 700; font-size: 1.1rem; margin-bottom: 4px;">
+  <a href="https://cadenaser.com/andalucia/2026/02/24/investigadores-de-la-uma-descubren-por-que-el-cerebro-repite-conductas-incluso-cuando-no-queremos-ser-malaga/"
+     style="color: var(--global-text-color); text-decoration: none;">
+     Entrevista radiofónica sobre resultados
+  </a>
+</div>
 
-    <!-- Subdescripción -->
-    <div style="color: #555; margin-bottom: 6px;">
-      Hoy por Hoy Málaga (Cadena Ser) nos entrevista sobre este
-      <a href="https://link.springer.com/article/10.3758/s13428-025-02865-2"
-         style="color: var(--global-theme-color); text-decoration: none;">
-         artículo
-      </a>.
-    </div>
-    </div>
+   <!-- Subdescripción -->
+<div style="color: var(--global-text-color-secondary); margin-bottom: 6px;">
+  Hoy por Hoy Málaga (Cadena Ser) nos entrevista sobre este 
+  <a href="https://link.springer.com/article/10.3758/s13428-025-02865-2"
+     style="color: var(--global-theme-color); text-decoration: none;">
+     artículo
+  </a>.
+</div>
 
     <!-- Fecha -->
     <div style="font-size: 0.9rem; color: #777;">
