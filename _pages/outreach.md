@@ -22,12 +22,13 @@ corrigelo para todo el codigo de manera que solo tenga que copiar y pegar:
   <!-- Texto -->
   <div>
 
-  <!-- Título con hipervínculo adaptado al tema + hover verde -->
+<!-- Título con hipervínculo adaptativo + hover verde -->
 <div style="font-weight: 700; font-size: 1.1rem; margin-bottom: 4px;">
-  https://cadenaser.com/andalucia/2026/02/24/investigadores-de-la-uma-descubren-por-que-el-cerebro-repite-conductas-incluso-cuando-no-queremos-ser-malaga.com
-     Entrevista radiofónica sobre resultados
-  </a>
-</div>
+  <a 
+    href="https://cadenaser.com/andalucia/2026/02/24/investigadores-de-la-uma-descubren-por-que-el-cerebro-repite-conductas-incluso-cuando-no-queremos-ser-malaga/"
+    style="color: var(--global-text-color); text-decoration: none; transition: color 0.2s;"
+    onmouseover="this.style.color='var(--global-theme-color)'"
+    onmouseout="this.style.color='var(--global-text-color)'"
 
    <!-- Subdescripción -->
 <div style="color: var(--global-text-color-secondary); margin-bottom: 6px;">
