@@ -150,15 +150,6 @@ collections:
   projects:
     output: true
     
-  outreach:
-    output: true
-defaults:
-  - scope:
-      path: ""
-      type: outreach
-    values:
-      layout: outreach_item  
-      show_image: true
 
 # -----------------------------------------------------------------------------
 # Jekyll settings
