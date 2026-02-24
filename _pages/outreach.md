@@ -15,7 +15,7 @@ toc: true
 <div style="display: flex; align-items: flex-start; gap: 15px; margin-bottom: 25px;">
 
   <!-- Imagen pequeña -->
-  <img src="/assets/img/sepc2023.jpg"
+  <img src="/assets/img/hoy-por-hoy.jpg"
        alt="Imagen actividad"
        style="width: 200px; height: auto; border-radius: 4px; flex-shrink: 0;">
 
@@ -57,7 +57,7 @@ toc: true
 <div style="display: flex; align-items: flex-start; gap: 15px; margin-bottom: 25px;">
 
   <!-- Imagen pequeña -->
-  <img src="/assets/img/sepc2023.jpg"
+  <img src="/assets/img/news.jpg"
        alt="Imagen actividad"
        style="width: 200px; height: auto; border-radius: 4px; flex-shrink: 0;">
 
@@ -70,7 +70,7 @@ toc: true
     </div>
 
     <!-- Subdescripción con hipervínculos en verde -->
-    <div style="color: var(--global-text-color-secondary, #bbb); margin-bottom: 6px;">
+    <div  style="color: var(--global-text-color-secondary); margin-bottom: 6px;">
       Los periódicos 
       <a href="https://www.europapress.es/esandalucia/malaga/noticia-ciencia-malaguena-explica-prisa-desnuda-habitos-hace-repetir-mismos-errores-20260223101548.html"
          style="color: var(--global-theme-color); text-decoration: none;">
@@ -92,7 +92,7 @@ toc: true
     </div>
 
     <!-- Fecha -->
-    <div style="font-size: 0.9rem; color: var(--global-text-color-secondary, #bbb);">
+    <div style="font-size: 0.9rem; style="color: var(--global-text-color-secondary);">
       2026
     </div>
 
@@ -107,7 +107,7 @@ toc: true
 <div style="display: flex; align-items: flex-start; gap: 15px; margin-bottom: 25px;">
 
   <!-- Imagen pequeña -->
-  <img src="/assets/img/sepc2023.jpg"
+  <img src="/assets/img/noche-europea.jpg"
        alt="Imagen actividad"
        style="width: 200px; height: auto; border-radius: 4px; flex-shrink: 0;">
 
@@ -125,12 +125,12 @@ toc: true
     </div>
 
     <!-- Subdescripción -->
-    <div style="color: #555; margin-bottom: 6px;">
+    <div style="color: var(--global-text-color-secondary); margin-bottom: 6px;">
       La Noche Europea de l@s Investigador@s
     </div>
 
     <!-- Fecha -->
-    <div style="font-size: 0.9rem; color: #777;">
+    <div style="font-size: 0.9rem; style="color: var(--global-text-color-secondary);">
       2025
     </div>
 
@@ -145,7 +145,7 @@ toc: true
 <div style="display: flex; align-items: flex-start; gap: 15px; margin-bottom: 25px;">
 
   <!-- Imagen pequeña -->
-  <img src="/assets/img/sepc2023.jpg"
+  <img src="/assets/img/ciencia-cognitiva.jpg"
        alt="Imagen actividad"
        style="width: 200px; height: auto; border-radius: 4px; flex-shrink: 0;">
 
@@ -163,12 +163,12 @@ toc: true
     </div>
 
     <!-- Subdescripción -->
-    <div style="color: #555; margin-bottom: 6px;">
+    <div style="color: var(--global-text-color-secondary); margin-bottom: 6px;">
       Revista: Ciencia Cognitiva
     </div>
 
     <!-- Fecha -->
-    <div style="font-size: 0.9rem; color: #777;">
+    <div style="font-size: 0.9rem; style="color: var(--global-text-color-secondary);">
       2024
     </div>
 
