@@ -7,7 +7,7 @@ nav: true
 nav_order: 4
 toc: true
 ---
-corrigelo para todo el codigo de manera que solo tenga que copiar y pegar: 
+
 <!-- Separador sutil -->
 <hr style="border: 0; border-top: 1px solid #e5e5e5; margin: 20px 0;">
 
@@ -22,14 +22,16 @@ corrigelo para todo el codigo de manera que solo tenga que copiar y pegar:
   <!-- Texto -->
   <div>
 
-<!-- Título con hipervínculo adaptativo + hover verde -->
-<div style="font-weight: 700; font-size: 1.1rem; margin-bottom: 4px;">
-  <a 
-    href="https://cadenaser.com/andalucia/2026/02/24/investigadores-de-la-uma-descubren-por-que-el-cerebro-repite-conductas-incluso-cuando-no-queremos-ser-malaga/"
-    style="color: var(--global-text-color); text-decoration: none; transition: color 0.2s;"
-    onmouseover="this.style.color='var(--global-theme-color)'"
-    onmouseout="this.style.color='var(--global-text-color)'"
-
+    <!-- Título con hipervínculo, negro + hover verde -->
+    <div style="font-weight: 700; font-size: 1.1rem; margin-bottom: 4px;">
+      <a href="https://cadenaser.com/andalucia/2026/02/24/investigadores-de-la-uma-descubren-por-que-el-cerebro-repite-conductas-incluso-cuando-no-queremos-ser-malaga/"
+         style="color: var(--global-text-color); text-decoration: none;"
+         onmouseover="this.style.color='var(--global-theme-color)'"
+         onmouseout="this.style.color='var(--global-text-color)'">
+         Entrevista en la radio sobre resultados
+      </a>
+    </div>
+    
    <!-- Subdescripción -->
 <div style="color: var(--global-text-color-secondary); margin-bottom: 6px;">
   Hoy por Hoy Málaga (Cadena Ser) nos entrevista sobre este 
@@ -115,9 +117,9 @@ corrigelo para todo el codigo de manera que solo tenga que copiar y pegar:
     <!-- Título con hipervínculo, negro + hover verde -->
     <div style="font-weight: 700; font-size: 1.1rem; margin-bottom: 4px;">
       <a href="https://www.youtube.com/watch?v=AJ7PTPtR8Hg"
-         style="color: #000; text-decoration: none;"
+         style="color: var(--global-text-color); text-decoration: none;"
          onmouseover="this.style.color='var(--global-theme-color)'"
-         onmouseout="this.style.color='#000'">
+         onmouseout="this.style.color='var(--global-text-color)'">
          Charla en la actividad Ciencia en pequeñas dosis
       </a>
     </div>
@@ -153,9 +155,9 @@ corrigelo para todo el codigo de manera que solo tenga que copiar y pegar:
     <!-- Título con hipervínculo, negro + hover verde -->
     <div style="font-weight: 700; font-size: 1.1rem; margin-bottom: 4px;">
       <a href="https://www.cienciacognitiva.org/?p=2515"
-         style="color: #000; text-decoration: none;"
+         style="color: var(--global-text-color); text-decoration: none;"
          onmouseover="this.style.color='var(--global-theme-color)'"
-         onmouseout="this.style.color='#000'">
+         onmouseout="this.style.color='var(--global-text-color)'">
          Artículo. El estudio de hábitos dentro del laboratorio
       </a>
     </div>
