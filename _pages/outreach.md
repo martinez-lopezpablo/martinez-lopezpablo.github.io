@@ -13,6 +13,6 @@ nav_order: 2
 
 <div class="publications">
 
-{% outreach %}
+{% activities %}
 
 </div>
