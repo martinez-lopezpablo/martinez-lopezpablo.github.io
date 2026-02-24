@@ -23,8 +23,8 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/projects/";
           },
-        },{id: "nav-flare",
-          title: "FLARE",
+        },{id: "nav-outreach",
+          title: "outreach",
           description: "Until now, all my outreach activity has been in Spanish. Sorry!",
           section: "Navigation",
           handler: () => {
