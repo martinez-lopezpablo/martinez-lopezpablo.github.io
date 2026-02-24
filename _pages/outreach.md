@@ -22,10 +22,9 @@ corrigelo para todo el codigo de manera que solo tenga que copiar y pegar:
   <!-- Texto -->
   <div>
 
-   <!-- Título con hipervínculo, compatible con modo oscuro -->
+  <!-- Título con hipervínculo adaptado al tema + hover verde -->
 <div style="font-weight: 700; font-size: 1.1rem; margin-bottom: 4px;">
-  <a href="https://cadenaser.com/andalucia/2026/02/24/investigadores-de-la-uma-descubren-por-que-el-cerebro-repite-conductas-incluso-cuando-no-queremos-ser-malaga/"
-     style="color: var(--global-text-color); text-decoration: none;">
+  https://cadenaser.com/andalucia/2026/02/24/investigadores-de-la-uma-descubren-por-que-el-cerebro-repite-conductas-incluso-cuando-no-queremos-ser-malaga.com
      Entrevista radiofónica sobre resultados
   </a>
 </div>
