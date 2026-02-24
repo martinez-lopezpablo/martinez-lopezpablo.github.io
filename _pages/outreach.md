@@ -7,6 +7,50 @@ nav: true
 nav_order: 4
 toc: true
 ---
+
+<!-- Separador sutil -->
+<hr style="border: 0; border-top: 1px solid #e5e5e5; margin: 20px 0;">
+
+<!-- Bloque de actividad -->
+<div style="display: flex; align-items: flex-start; gap: 15px; margin-bottom: 25px;">
+
+  <!-- Imagen pequeña -->
+  <img src="/assets/img/sepc2023.jpg"
+       alt="Imagen actividad"
+       style="width: 200px; height: auto; border-radius: 4px; flex-shrink: 0;">
+
+  <!-- Texto -->
+  <div>
+
+    <!-- Título con hipervínculo, negro + hover verde -->
+    <div style="font-weight: 700; font-size: 1.1rem; margin-bottom: 4px;">
+      <a href="https://cadenaser.com/andalucia/2026/02/24/investigadores-de-la-uma-descubren-por-que-el-cerebro-repite-conductas-incluso-cuando-no-queremos-ser-malaga/"
+         style="color: #000; text-decoration: none;"
+         onmouseover="this.style.color='var(--global-theme-color)'"
+         onmouseout="this.style.color='#000'">
+         Entrevista radiofónica sobre resultados
+      </a>
+    </div>
+
+    <!-- Subdescripción -->
+    <div style="color: #555; margin-bottom: 6px;">
+      Hoy por Hoy Málaga (Cadena Ser) nos entrevista sobre este
+      <a href="https://link.springer.com/article/10.3758/s13428-025-02865-2"
+         style="color: var(--global-theme-color); text-decoration: none;">
+         artículo
+      </a>.
+    </div>
+    </div>
+
+    <!-- Fecha -->
+    <div style="font-size: 0.9rem; color: #777;">
+      2025
+    </div>
+
+  </div>
+
+</div>
+
 <!-- Separador sutil -->
 <hr style="border: 0; border-top: 1px solid #e5e5e5; margin: 20px 0;">
 
@@ -23,7 +67,7 @@ toc: true
 
     <!-- Título sin hipervínculo, siempre en negro -->
     <div style="font-weight: 700; font-size: 1.1rem; margin-bottom: 4px; color: #000;">
-      Mención en prensa
+      Mención en prensa sobre resultados
     </div>
 
     <!-- Subdescripción con hipervínculos en verde -->
