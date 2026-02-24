@@ -12,7 +12,7 @@ description: Until now, all my outreach activity has been in Spanish. Sorry!
 % Ciencia Cognitiva 
 <div style="display: flex; align-items: flex-start; gap: 15px; margin-bottom: 25px;">
 
-  <img src="/assets/img/sepc2023.png"
+  <img src="/assets/img/sepc2023.jpg"
        alt="Imagen actividad"
        style="width: 80px; height: auto; border-radius: 4px; flex-shrink: 0;">
 
