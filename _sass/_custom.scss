@@ -1,0 +1,68 @@
+
+.outreach-list {
+  display: grid;
+  gap: 1.25rem;
+}
+
+
+.outreach-card {
+  display: grid;
+  grid-template-columns: 1fr auto; /* texto | imagen */
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem 0;
+  border-bottom: 1px solid var(--global-divider-color, #eaeaea);
+}
+
+.outreach-text {
+  min-width: 0;
+}
+
+.outreach-title {
+  margin: 0 0 0.25rem 0;
+  font-weight: 600;
+  line-height: 1.25;
+}
+
+.outreach-title a {
+  text-decoration: none;
+  border-bottom: 0; /* coherente con al-folio */
+}
+
+.outreach-subtitle {
+  margin: 0 0 0.35rem 0;
+  color: var(--global-muted-text-color, #666);
+}
+
+.outreach-meta {
+  margin: 0;
+  font-size: 0.9rem;
+  color: var(--global-muted-text-color, #777);
+}
+
+
+.outreach-thumb {
+  width: 120px;               /* tamaño pequeño */
+  height: 80px;
+  overflow: hidden;
+  border-radius: 6px;
+  flex-shrink: 0;
+}
+
+.outreach-thumb img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+@media (max-width: 640px) {
+  .outreach-card {
+    grid-template-columns: 1fr;
+  }
+  .outreach-thumb {
+    width: 100%;
+    height: 180px;
+    margin-top: 0.5rem;
+  }
+}
