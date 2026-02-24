@@ -9,7 +9,14 @@ ninja.data = [{
     handler: () => {
       window.location.href = "/";
     },
-  },{id: "nav-publications",
+  },{id: "nav-outreach",
+          title: "outreach",
+          description: "Until now, all my outreach work has been in Spanish. Sorry!",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/outreach/";
+          },
+        },{id: "nav-publications",
           title: "publications",
           description: "published articles/preprints.",
           section: "Navigation",
