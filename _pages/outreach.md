@@ -2,25 +2,28 @@
 layout: page
 permalink: /outreach/
 title: outreach
-description: Until now, all my outreach activity has been in Spanish. Sorry!
+description: Until now, all my outreach activity has been in Spanish. Sorry! Click on the images or titles to see the online content.
 nav: true
 nav_order: 4
 toc: true
 ---
-<!-- Line -->
 <!-- Line -->
 <hr style="border: 0; border-top: 1px solid #e5e5e5; margin: 20px 0;">
 
 <!-- Activity -->
 <div style="display: flex; align-items: flex-start; gap: 15px; margin-bottom: 25px;">
 
-  <!-- Img -->
-  <img src="/assets/img/hoy-por-hoy.jpg"
-       alt="Imagen actividad"
-       style="width: 200px; height: auto; border-radius: 4px; flex-shrink: 0;">
+<!-- Img con hyperlink -->
+  <a href="https://cadenaser.com/andalucia/2026/02/24/investigadores-de-la-uma-descubren-por-que-el-cerebro-repite-conductas-incluso-cuando-no-queremos-ser-malaga/"
+     style="text-decoration: none;">
+    <img src="/assets/img/hoy-por-hoy.jpg"
+         alt="Imagen actividad"
+         style="width: 200px; height: auto; border-radius: 4px; flex-shrink: 0;">
+  </a>
+
   <div>
 
-    <!-- Title -->
+<!-- Title -->
     <div style="font-weight: 700; font-size: 1.1rem; margin-bottom: 4px;">
       <a href="https://cadenaser.com/andalucia/2026/02/24/investigadores-de-la-uma-descubren-por-que-el-cerebro-repite-conductas-incluso-cuando-no-queremos-ser-malaga/"
          style="color: var(--global-text-color); text-decoration: none;"
@@ -104,11 +107,15 @@ toc: true
 <!-- Activity -->
 <div style="display: flex; align-items: flex-start; gap: 15px; margin-bottom: 25px;">
 
-  <!-- Img -->
-  <img src="/assets/img/noche-europea.jpg"
+<!-- Img con hyperlink -->
+  <a href="https://www.youtube.com/watch?v=AJ7PTPtR8Hg"
+     style="text-decoration: none;">
+    <img src="/assets/img/noche-europea.jpg"
        alt="Imagen actividad"
        style="width: 200px; height: auto; border-radius: 4px; flex-shrink: 0;">
+  </a>
 
+  <div>
   <!-- Text -->
   <div>
 
@@ -142,11 +149,16 @@ toc: true
 <!-- Activity -->
 <div style="display: flex; align-items: flex-start; gap: 15px; margin-bottom: 25px;">
 
-  <!-- Img -->
-  <img src="/assets/img/ciencia-cognitiva.jpg"
+
+<!-- Img con hyperlink -->
+  <a href="https://www.cienciacognitiva.org/?p=2515"
+     style="text-decoration: none;">
+   <img src="/assets/img/ciencia-cognitiva.jpg"
        alt="Imagen actividad"
        style="width: 200px; height: auto; border-radius: 4px; flex-shrink: 0;">
+  </a>
 
+  <div>
   <!-- Text -->
   <div>
 
