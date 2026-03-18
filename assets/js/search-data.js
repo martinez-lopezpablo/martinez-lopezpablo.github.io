@@ -25,7 +25,7 @@ ninja.data = [{
           },
         },{id: "nav-outreach",
           title: "outreach",
-          description: "Until now, all my outreach activity has been in Spanish. Sorry!",
+          description: "Until now, all my outreach activity has been in Spanish. Sorry! Click on the images or titles to see the online content.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/outreach/";
