@@ -116,10 +116,9 @@ toc: true
   </a>
 
   <div>
-  <!-- Text -->
-  <div>
+    
 
-    <!-- Títle -->
+<!-- Títle -->
     <div style="font-weight: 700; font-size: 1.1rem; margin-bottom: 4px;">
       <a href="https://www.youtube.com/watch?v=AJ7PTPtR8Hg"
          style="color: var(--global-text-color); text-decoration: none;"
@@ -159,6 +158,7 @@ toc: true
   </a>
 
   <div>
+    
   <!-- Text -->
   <div>
 
