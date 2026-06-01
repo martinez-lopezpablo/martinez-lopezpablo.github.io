@@ -3,7 +3,7 @@ layout: page
 title: SEPC2025
 description: Oral comm. at a symposium
 img: /assets/img/sepc2025.jpg
-importance: 1
+importance: 2
 category: conferences
 ---
 ORAL COMM. (symp.). <strong>Lingering habits: testing the temporal stability of habits</strong>
