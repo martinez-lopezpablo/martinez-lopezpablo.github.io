@@ -3,7 +3,7 @@ layout: page
 title: SEPEX2024
 description: Oral comm. at a symposium and Poster
 img: assets/img/sepex2024.jpg
-importance: 3
+importance: 4
 category: conferences
 giscus_comments: false
 ---
