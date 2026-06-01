@@ -1,6 +1,6 @@
 ---
 layout: page
-title: SEPC2025
+title: APS2026
 description: Oral comm. at a symposium
 img: /assets/img/aps2026.jpg
 importance: 1
