@@ -3,7 +3,7 @@ layout: page
 title: EAM2025
 description: Oral comm.
 img: assets/img/EAM2025.jpg
-importance: 2
+importance: 3
 category: conferences
 giscus_comments: false
 ---
