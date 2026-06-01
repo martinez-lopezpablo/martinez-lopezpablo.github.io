@@ -55,9 +55,9 @@ ninja.data = [{
           description: "Oral comm. at a symposium",
           section: "Projects",handler: () => {
               window.location.href = "/projects/4_project/";
-            },},{id: "projects-project-5",
-          title: 'project 5',
-          description: "a project with a background image",
+            },},{id: "projects-sepc2025",
+          title: 'SEPC2025',
+          description: "Oral comm. at a symposium",
           section: "Projects",handler: () => {
               window.location.href = "/projects/5_project/";
             },},{id: "projects-project-6",
