@@ -29,7 +29,7 @@ toc: true
          style="color: var(--global-text-color); text-decoration: none;"
          onmouseover="this.style.color='var(--global-theme-color)'"
          onmouseout="this.style.color='var(--global-text-color)'">
-         Entrevista en la radio sobre resultados
+         Intervención en el periódico sobre resultados
       </a>
     </div>
     
