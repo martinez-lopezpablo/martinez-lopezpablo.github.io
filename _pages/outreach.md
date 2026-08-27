@@ -14,6 +14,50 @@ toc: true
 <div style="display: flex; align-items: flex-start; gap: 15px; margin-bottom: 25px;">
 
 <!-- Img con hyperlink -->
+  <a href="https://elpais.com/estilo-de-vida/2026-08-18/del-scroll-infinito-a-volver-con-un-ex-por-que-el-cerebro-nos-hace-repetir-conductas-que-no-queremos.html"
+     style="text-decoration: none;">
+    <img src="/assets/img/el-pais.jpg"
+         alt="Imagen actividad"
+         style="width: 200px; height: auto; border-radius: 4px; flex-shrink: 0;">
+  </a>
+
+  <div>
+
+<!-- Title -->
+    <div style="font-weight: 700; font-size: 1.1rem; margin-bottom: 4px;">
+      <a href="https://elpais.com/estilo-de-vida/2026-08-18/del-scroll-infinito-a-volver-con-un-ex-por-que-el-cerebro-nos-hace-repetir-conductas-que-no-queremos.html"
+         style="color: var(--global-text-color); text-decoration: none;"
+         onmouseover="this.style.color='var(--global-theme-color)'"
+         onmouseout="this.style.color='var(--global-text-color)'">
+         Entrevista en la radio sobre resultados
+      </a>
+    </div>
+    
+   <!-- Info -->
+<div style="color: var(--global-text-color-secondary); margin-bottom: 6px;">
+  El País nos consulta sobre este 
+  <a href="https://doi.org/10.31234/osf.io/r62pa_v1"
+     style="color: var(--global-theme-color); text-decoration: none;">
+     preprint
+  </a>
+</div>
+
+    <!-- Year -->
+    <div style="font-size: 0.9rem; color: var(--global-text-color-secondary);">
+      2026
+    </div>
+
+  </div>
+
+</div>
+
+<!-- Line -->
+<hr style="border: 0; border-top: 1px solid #e5e5e5; margin: 20px 0;">
+
+<!-- Activity -->
+<div style="display: flex; align-items: flex-start; gap: 15px; margin-bottom: 25px;">
+
+<!-- Img con hyperlink -->
   <a href="https://cadenaser.com/andalucia/2026/02/24/investigadores-de-la-uma-descubren-por-que-el-cerebro-repite-conductas-incluso-cuando-no-queremos-ser-malaga/"
      style="text-decoration: none;">
     <img src="/assets/img/hoy-por-hoy.jpg"
